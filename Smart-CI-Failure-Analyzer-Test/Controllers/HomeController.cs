@@ -15,16 +15,19 @@ namespace Smart_CI_Failure_Analyzer_Test.Controllers
 
         public IActionResult Index()
         {
-
             return View();
-        }
-        public IActionResult Test()
-        {
         }
         public IActionResult Privacy()
         {
+            string text = null;
+            text.Contains();
             return View();
         }
+
+        //public IActionResult Privacy()
+        //{
+        //    return View();
+        //}
         
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
